@@ -2,7 +2,7 @@
 
 ## To get started:
 
-* Clone down the file with this command in terminal:
+* Clone down the files with this command in terminal:
 
 ` git clone https://github.com/relasine/css-transitions-workshop.git `
 
