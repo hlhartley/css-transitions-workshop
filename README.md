@@ -9,3 +9,12 @@
 * cd into the directory css-transitions-workshop
 * open it in your text editor
 * open index.html in your browser
+
+The JavaScript for this has been written, so you don't need to worry about that at all. We'll just be focusing on the CSS for this.
+
+We will:
+* Apply transitions to hover effects
+* Apply transitions to elements that are undergoing dynamic class assignment
+* Utilize position: absolute, transform: rotate, and color changes
+
+If you have questions, please feel free to hit me up on Slack!
