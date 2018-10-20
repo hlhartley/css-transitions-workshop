@@ -1,0 +1,152 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* -- HEADER SECTION -- */
+
+.header-text {
+  text-align: center;
+  width: 350px;
+  border-radius: 30px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+/* .TOGGLED-HEADER IS A CLASS THAT IS ADDED/REMOVED FROM OUR H1 ON LINE 10 WHENEVER WE CLICK ON THE BUTTON */
+
+.toggled-header {
+  background: #000;
+  color: #fff;
+}
+
+.header-btn {
+  margin: auto;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000;
+  border-radius: 5px;
+
+  background: #fff;
+  color: #000;
+}
+
+.header-btn:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* -- MODAL WINDOW --*/
+
+main {
+  position: relative;
+}
+
+.modal {
+  overflow: hidden;
+  width: 250px;
+  height: 35px;
+  border: 2px solid #000;
+  padding: 1rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+
+  position: absolute;
+  top: 50px;
+  left: -220px;
+}
+
+.modal-title {
+  margin-top: .5rem;
+}
+
+.caret {
+  width: 15px;
+  display: block;
+  margin: 7.5px auto;
+}
+
+.caret-wrapper {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px #000; 
+}
+
+.caret-wrapper:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* TOGGLED MODAL IS A CLASS THAT IS APPLIED/REMOVED TO THE MODAL DIV WHENEVER THE CARET BUTTON IS PRESSED */
+
+.toggled-modal {
+  height: 172px;
+  left: 0;
+}
+
+/* HERE WE ARE TARGETING THE BUTTON VIA CHAINING SO THAT WE ONLY NEED TO CHANGE TOGGLE CLASS ON ONE ELEMENT INSTEAD OF TWO */
+
+.toggled-modal .caret-wrapper {
+  transform: rotate(180deg);
+}
+
+.modal-title,
+.modal-body {
+  margin-right: 3rem;
+}
+
+/* -- HAMBURGER MENU -- */
+
+.hamburger {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-right: solid 2px #000;
+  border-bottom: solid 2px #000;
+}
+
+.bar {
+
+}
+
+.top-bar {
+
+}
+
+.middle-bar {
+
+}
+
+.bottom-bar {
+
+}
+
+/* THE TOGGLED-HAMBURGER CLASS IS TOGGLED WHENEVER YOU CLICK ON THE HAMBURGER. WE ARE USING CHAINING TO INDICATE CHANGES TO CHILD ELEMENTS WHILE IT IS TOGGLED */
+
+.toggled-hamburger .top-bar {
+
+}
+
+.toggled-hamburger .middle-bar {
+
+}
+
+.toggled-hamburger .bottom-bar {
+
+}
+
+.hamburger:hover {
+  cursor: pointer;
+  background: #000;
+}
+
+.hamburger:hover bar {
+  background: #fff;
+}
+
+
