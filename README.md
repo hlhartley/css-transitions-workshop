@@ -16,5 +16,6 @@ We will:
 * Apply transitions to hover effects
 * Apply transitions to elements that are undergoing dynamic class assignment
 * Utilize position: absolute, transform: rotate, and color changes
+* Create a key frames animation (maybe)
 
-If you have questions, please feel free to hit me up on Slack!
+If you have questions or would like to pair on transitions or animations, please feel free to hit me up on Slack!
